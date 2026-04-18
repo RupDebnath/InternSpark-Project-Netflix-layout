@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Netflix India - Watch Shows Online, Watch Movies Online</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<!-- Working Language Translator -->
+<div id="google_translate_element"></div>
+
+<script>
+  function loadTranslator() {
+    var script = document.createElement('script');
+    script.src = "https://cdn.gtranslate.net/widgets/latest/float.js";
+    document.body.appendChild(script);
+
+    window.gtranslateSettings = {
+      default_language: "en",
+      languages: ["en", "hi", "bn", "fr", "de", "es"], 
+      wrapper_selector: "#google_translate_element"
+    };
+  }
+  loadTranslator();
+</script>
+
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <span class="logo">NETFLIX</span>
+  <button type="button" class="btn">Sign In</button>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1>Unlimited movies, TV shows and more</h1>
+    <p>Starts at ₹149. Cancel at any time.</p>
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    <form id="emailForm">
+  <input type="email" id="emailInput" placeholder="Enter Your Email" required>
+  <button type="submit">Get Started</button>
+</form>
+  </div>
+</header>
+
+
+<div class="arc-wrapper">
+  <svg viewBox="0 0 1440 200" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="netflixGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#ff4d6d"/>
+        <stop offset="50%" stop-color="#e50914"/>
+        <stop offset="100%" stop-color="#b20710"/>
+      </linearGradient>
+    </defs>
+
+    <path d="M0,150 Q720,20 1440,150" />
+  </svg>
+</div>
+
+
+
+<!-- ROWS -->
+<section class="row">
+  <h2 class="des">Trending Now</h2>
+  <div class="rate">
+    <h1 class="rating">1</h1>
+    <h1 class="rating">2</h1>
+    <h1 class="rating">3</h1>
+    <h1 class="rating">4</h1>
+    <h1 class="rating">5</h1>
+    <h1 class="rating">6</h1>
+  </div>
+  <div class="row-posters">
+   <img src="https://upload.wikimedia.org/wikipedia/en/c/c8/Dhurandhar-_The_Revenge_poster.jpg" alt="Trending movie 1">
+    <img src="https://tomindia.s3.ap-south-1.amazonaws.com/prod/post/featureImage/1763631521370_3a53c7f645c6479da8dbc0724399b607_Border-2-Bollywood-Movies-TomorrowsIndia.jpg" alt="Trending movie 2">
+    <img src="https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTkyZWJjNzMwLTcyOGYtMTFlZi1iMGJjLTYzOWMwMWNiNWNkMy5qcGc=" alt="Trending movie 3">
+    <img src="https://upload.wikimedia.org/wikipedia/en/e/e5/Mardaani_3_Film_poster.jpg" alt="Trending movie 4">
+    <img src="https://preview.redd.it/new-one-piece-netflix-poster-v0-3xnakn2c82jb1.jpg?auto=webp&s=61a7077257635901f3f1ab6954f0d17dd27ad6fe" alt="Trending movie 5">
+     <img src="https://resizing.flixster.com/VMzDlAyJZb_B26mo1JIbBrB4tto=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p26774733_b_v8_ab.jpg" alt="Trending movie 4">
+  </div>
+</section>
+
+
+<section class="row">
+  <h2 class="des">Top Rated</h2>
+  <div class="top-posters">
+    <img src="https://mxp-media.ilnmedia.com/media/content/2025/Dec/2---credit---Jio-Studios_69328793f41da.jpg?w=938&h=1172&cc=1" alt="Top rated movie 1">
+    <img src="https://media.assettype.com/kashmirtimes/import/wp-content/uploads/2024/03/A-poster-of-film-Article-370-e1709694497373.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true" alt="Top rated movie 2">
+    <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8717703_p_v8_aa.jpg" alt="Top rated movie 3">
+  </div>
+</section>
+
+<section class="row">
+  <h2 class="des">More rasons to join</h2>
+  <div class="style">
+  <div class="box">
+<img src="https://img.icons8.com/ios-filled/100/ffffff/tv.png" class="box-icon" alt="ph1">
+  <h3>Enjoy on your TV</h3>
+  <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+</div>
+
+<div class="box">
+  <img src="https://img.icons8.com/ios-filled/100/ffffff/download.png" class="box-icon" alt="ph2">
+  <h3>Download your shows to watch offline</h3>
+  <p>Save your favourites easily and always have something to watch.</p>
+</div>
+
+<div class="box">
+  <img src="https://img.icons8.com/ios-filled/100/ffffff/laptop.png" class="box-icon" alt="ph3">
+  <h3>Watch everywhere</h3>
+  <p>Stream on phone, tablet, laptop and TV.</p>
+</div>
+
+<div class="box">
+  <img src="https://img.icons8.com/ios-filled/100/ffffff/happy.png" class="box-icon" alt="ph4">
+  <h3>Create profiles for kids</h3>
+  <p>Kids enjoy safe content in their own space.</p>
+</div>
+</div>
+</section>
+
+<section class="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <button type="button" class="faq-question">
+      What is Netflix?
+      <span class="icon">+</span>
+    </button>
+    <div class="faq-answer">
+      <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.<br><br>
+You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button type="button" class="faq-question">
+      How much does Netflix cost?
+      <span class="icon">+</span>
+    </button>
+    <div class="faq-answer">
+      <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649/month.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button type="button" class="faq-question">
+      Where can I watch?
+      <span class="icon">+</span>
+    </button>
+    <div class="faq-answer">
+      <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.<br><br>
+You can also download your favourite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button type="button" class="faq-question">
+      How do I cancel?
+      <span class="icon">+</span>
+    </button>
+    <div class="faq-answer">
+      <p>Netflix is flexible. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button type="button" class="faq-question">
+      What can I watch on Netflix?
+      <span class="icon">+</span>
+    </button>
+    <div class="faq-answer">
+      <p>Netflix has an extensive library of feature films, documentaries, shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button type="button" class="faq-question">
+      Is Netflix good for kids?
+      <span class="icon">+</span>
+    </button>
+    <div class="faq-answer">
+      <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.<br><br>
+Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+    </div>
+  </div>
+</section>
+<p class="heading">Ready to watch? Enter your email to create or restart your membership.</p>
+<form id="emailform">
+  <input type="email" id="emailinput" placeholder="Enter Your Email" required>
+  <button type="submit">Get Started &gt; </button>
+</form>
+
+<!-- FOOTER -->
+  <footer class="footer">
+  <p class="contact">Questions? Call 000-800-919-1743</p>
+
+  <div class="footer-links">
+    <div>
+      <a href="#">FAQ</a>
+      <a href="#">Investor Relations</a>
+      <a href="#">Privacy</a>
+      <a href="#">Speed Test</a>
+    </div>
+
+    <div>
+      <a href="#">Help Centre</a>
+      <a href="#">Jobs</a>
+      <a href="#">Cookie Preferences</a>
+      <a href="#">Legal Notices</a>
+    </div>
+
+    <div>
+      <a href="#">Account</a>
+      <a href="#">Ways to Watch</a>
+      <a href="#">Corporate Information</a>
+      <a href="#">Only on Netflix</a>
+    </div>
+
+    <div>
+      <a href="#">Media Centre</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </div>
+
+  <button type="button" class="lang">🌐 English</button>
+
+  <p class="country">Netflix India</p> <br>
+  <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
